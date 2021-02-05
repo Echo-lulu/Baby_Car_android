@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/menu_board"
+        android:layout_width="279dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="752dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/out_state_bg" />
+
+    <ImageView
+        android:id="@+id/baobao"
+        android:layout_width="99dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="844dp"
+        android:layout_marginTop="152dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baobao" />
+
+    <TextView
+        android:id="@+id/text_wendu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="960dp"
+        android:layout_marginTop="300dp"
+        android:text="25℃"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="788dp"
+        android:layout_marginTop="304dp"
+        android:text="晴天"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/air_condition"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="776dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/air_pure" />
+
+    <TextView
+        android:id="@+id/text_air_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="796dp"
+        android:layout_marginTop="176dp"
+        android:text="优"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/wendu"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="952dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wendu" />
+
+    <ImageView
+        android:id="@+id/weather"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="776dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/weather" />
+
+    <TextView
+        android:id="@+id/text_fengshan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="964dp"
+        android:layout_marginTop="172dp"
+        android:text="风扇"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fengshan"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="952dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fengshan" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

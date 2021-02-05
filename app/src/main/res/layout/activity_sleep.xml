@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Sleep">
+    <ImageView
+        android:id="@+id/sleepcar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sleep_car" />
+
+    <ImageView
+        android:id="@+id/sleepkuang"
+        android:layout_width="712dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="59dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sleep_kuang" />
+
+    <ImageView
+        android:id="@+id/sleep_air_pure"
+        android:layout_width="89dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="219dp"
+        android:layout_marginTop="93dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sleep_air_pure" />
+
+    <ImageView
+        android:id="@+id/sleep_fengshan"
+        android:layout_width="89dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="349dp"
+        android:layout_marginTop="93dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sleep_fengshan" />
+
+    <ImageView
+        android:id="@+id/sleep_weather"
+        android:layout_width="89dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="624dp"
+        android:layout_marginTop="93dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sleep_weather" />
+
+    <ImageView
+        android:id="@+id/sleep_wendu"
+        android:layout_width="89dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="754dp"
+        android:layout_marginTop="93dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sleep_wendu" />
+    <TextView
+        android:id="@+id/text_air_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="186dp"
+        android:text="优"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_fengshan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="369dp"
+        android:layout_marginTop="186dp"
+        android:text="风扇"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="645dp"
+        android:layout_marginTop="186dp"
+        android:text="晴天"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_wendu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="774dp"
+        android:layout_marginTop="186dp"
+        android:text="25℃"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/baobao"
+        android:layout_width="101dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="480dp"
+        android:layout_marginTop="83dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baobao" />
+
+
+    <ImageView
+        android:id="@+id/sleep_sudukuang"
+        android:layout_width="207dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sleep_sudu" />
+    <TextView
+        android:id="@+id/speed6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="263dp"
+        android:layout_marginTop="310dp"
+        android:text="5.0"
+        android:textColor="#FFFFFF"
+        android:textSize="85dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sadasdsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="398dp"
+        android:text="km/h"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/sleep_4kuang"
+        android:layout_width="149dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="685dp"
+        android:layout_marginTop="241dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sleep_4kuang" />
+
+    <TextView
+        android:id="@+id/sleep_dongli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="712dp"
+        android:layout_marginTop="250dp"
+        android:text="动力:"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/gear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="789dp"
+        android:layout_marginTop="250dp"
+        android:text="强"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sleep_podu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="712dp"
+        android:layout_marginTop="310dp"
+        android:text="坡度:"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/slope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="782dp"
+        android:layout_marginTop="310dp"
+        android:text="30°"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/accelerate"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="743dp"
+        android:layout_marginTop="372dp"
+        android:text="加速中"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/decelerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="743dp"
+        android:layout_marginTop="436dp"
+        android:text="减速中"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/jiasu_icon"
+        android:layout_width="22dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="705dp"
+        android:layout_marginTop="374dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jiasu1" />
+
+    <ImageView
+        android:id="@+id/jiansu_icon"
+        android:layout_width="22dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="705dp"
+        android:layout_marginTop="436dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jiansu1" />
+
+    <include
+        android:id="@+id/inclu78"
+        layout="@layout/power_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/sleeptext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="490dp"
+        android:layout_marginTop="0dp"
+        android:text="待机"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_baobao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="494dp"
+        android:layout_marginTop="186dp"
+        android:text="乘坐中"
+        android:textColor="#FFFFFF"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

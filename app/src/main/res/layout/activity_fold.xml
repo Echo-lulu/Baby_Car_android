@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foldbg"
+    tools:context=".Fold">
+    <include
+        android:id="@+id/inclu78"
+        layout="@layout/power_voice"
+        android:layout_width="1068dp"
+        android:layout_height="600dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/lock"
+        android:layout_width="243dp"
+        android:layout_height="334dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="120dp"
+        android:clickable="true"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lock" />
+
+    <ImageView
+        android:id="@+id/fold"
+        android:layout_width="224dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="722dp"
+        android:layout_marginTop="116dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/zhankai"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/unfold"
+        android:layout_width="224dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="722dp"
+        android:layout_marginTop="293dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/zhedie"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"  />
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+    <TextView
+        android:id="@+id/accelerate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="490dp"
+        android:layout_marginTop="0dp"
+        android:text="折叠"
+        android:textColor="#FFFFFF"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="起身"
+        android:textSize="25dp"
+        android:textColor="#0FF7FF"
+        android:layout_marginStart="808dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/textView11212"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="折叠"
+        android:textSize="25dp"
+        android:textColor="#0FF7FF"
+        android:layout_marginStart="808dp"
+        android:layout_marginTop="395dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/warning"
+        android:layout_width="1200dp"
+        android:layout_height="800dp"
+        android:layout_marginStart="20dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/editbox_dropdown_dark_frame" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
